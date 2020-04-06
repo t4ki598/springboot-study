@@ -10,6 +10,7 @@
         <module name="springboot-02-config" />
         <module name="springboot-03-autoconfig" />
         <module name="springboot-04-logging" />
+        <module name="springboot-05-restfulecrud" />
         <module name="springboot-study" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
       <module name="springboot-02-config" target="1.8" />
       <module name="springboot-03-autoconfig" target="1.8" />
       <module name="springboot-04-logging" target="1.8" />
+      <module name="springboot-05-restfulecrud" target="1.8" />
       <module name="springboot-study" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -27,6 +29,7 @@
       <module name="springboot-02-config" options="-parameters" />
       <module name="springboot-03-autoconfig" options="-parameters" />
       <module name="springboot-04-logging" options="-parameters" />
+      <module name="springboot-05-restfulecrud" options="-parameters" />
       <module name="springboot-study" options="-parameters" />
     </option>
   </component>

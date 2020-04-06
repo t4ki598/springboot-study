@@ -1,10 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
+<h1>测试成功</h1>
+<hr/>
+<div th:text="${hello}">测试框架1</div>
+<div th:utext="${hello}"></div>
+<hr/>
 
+<!--th:each每次遍历都会生成当前标签，比如在th前写h4则每次都会生成h4标签-->
+<!--效果：3个h4标签-->
+<h4 th:text="${user}" th:each="user : ${users}"></h4>
+<hr/>
+
+<!--效果：三个span标签-->
+<h3>
+   <span th:each="user : ${users}">[[${user}]]</span>
+</h3>
 </body>
 </html>
