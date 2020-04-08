@@ -1,0 +1,48 @@
+{
+  "groups": [
+    {
+      "name": "person",
+      "type": "com.ldr.bean.Person",
+      "sourceType": "com.ldr.bean.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "person.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ldr.bean.Person"
+    },
+    {
+      "name": "person.birth",
+      "type": "java.util.Date",
+      "sourceType": "com.ldr.bean.Person"
+    },
+    {
+      "name": "person.dog",
+      "type": "com.ldr.bean.Dog",
+      "sourceType": "com.ldr.bean.Person"
+    },
+    {
+      "name": "person.lists",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.ldr.bean.Person"
+    },
+    {
+      "name": "person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.ldr.bean.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "com.ldr.bean.Person"
+    },
+    {
+      "name": "person.sex",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.ldr.bean.Person",
+      "defaultValue": false
+    }
+  ],
+  "hints": []
+}
