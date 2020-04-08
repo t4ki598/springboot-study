@@ -18,8 +18,8 @@ class Springboot02ConfigApplicationTests {
 
     @Test
     public void HelloServiceTest(){
-        boolean b = ioc.containsBean("helloService");
-        System.out.println(b);
+        boolean a = ioc.containsBean("helloService");
+        System.out.println(a);
     }
 
     @Test
