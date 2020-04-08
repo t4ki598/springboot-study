@@ -18,6 +18,6 @@ public class HelloController {
     //@ResponseBody //返回的字符串要写给浏览器
     @RequestMapping("/hello")
     public String hello(){
-        return "hello world";
+        return "hello springboot";
     }
 }
